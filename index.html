@@ -1,14 +1,4 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Personal Home Page  Template</title>
-  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
 <html lang="en">
   
 <head class="name">
@@ -26,17 +16,19 @@
     </header>
     <div id="description">Welcome to my page. I'm Zahraa, aspiring developer.</div>
   </section>
-  
-<input id="text"/>
-<button id="button">speak</button>
-  
-<!--   <img id="cloud-image" src="https://cdn-aimke.nitrocdn.com/rxuYeOlLVyqoowovtaNSrdqKwKZDavKP/assets/static/optimized/rev-d57cb71/wp-content/uploads/2019/02/what-is-pink-cloud.jpg" alt="Image of me looking out onto Venice"> -->
 
   <nav class="navigation-bar" aria-label="Main Site Links.">
     <a href="#hobbies" class="nav-links">Hobbies</a>
     <a href="#education" class="nav-links">Education</a>
-    <a href="#Future" class="nav-links">Future Pospects</a>
+    <a href="#career" class="nav-links">Future Pospects</a>
+    <a href="#feedback" class="nav-links">Feedback</a>
   </nav>
+  
+  <section id="speak_section" class="section">
+    <h2> Say something!</h2>
+  <input id="text"/>
+<button id="button">speak</button>
+  </section>
 
   <section id="hobbies-section" class="section">
     <h2 id="hobbies">Hobbies </h2>
@@ -61,6 +53,20 @@
     <p> The stories from past students are especially inspiring, and have given me hope that a career in software developing is possible. </p>
     <iframe id="video" width="956" height="538" src="https://www.youtube.com/embed/LpQUHt2N6rY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </section>
+  
+<section id="comment-section" class="section">
+ <h2 id="feedback">Feedback</h2>
+ <p> What do you think of my website? Let me know!</p>
+  <br>
+ <lu id="final_comment"></lu>
+  <br>
+ <label id="label"> Name:</label>
+ <input id="name_input" placeholder="Insert name here"></input>
+ <br><br>
+ <textarea id="feedback_input" placeholder="Enter your comment here..."></textarea>
+ <br>
+ <button id="enter_button">Enter</button>
+</section>
   
   <footer class="c-site-footer">
     <a href="https://www.instagram.com/zahraatayyar/" target="_blank"><i class="footer-link">Instagram &#8226;</i></a>
